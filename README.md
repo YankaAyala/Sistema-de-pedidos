@@ -56,16 +56,16 @@ Navegação no Menu
    
 Durante o pedido:
 
--Selecione um cliente.
--Adicione produtos e quantidades.
--Escolha o tipo de frete:
+- Selecione um cliente.
+- Adicione produtos e quantidades.
+- Escolha o tipo de frete:
   Por peso (R$5,00 por kg)
   Por distância (R$0,50 por km)
--Escolha o tipo de notificação:
+- Escolha o tipo de notificação:
   E-mail
   SMS
   WhatsApp
--Digitar 0 em qualquer etapa cancela o processo atual.
+- Digitar 0 em qualquer etapa cancela o processo atual.
 
 Funcionalidades
 
