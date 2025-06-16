@@ -16,26 +16,27 @@ Como Executar
 
 projeto/
 ├── app/
-│ └── Main.java
+│   └── Main.java                    
 ├── model/
-│ ├── Cliente.java
-│ ├── Produto.java
-│ ├── Pedido.java
-│ └── ItemPedido.java
+│   ├── Cliente.java                 
+│   ├── Produto.java                  
+│   ├── Pedido.java                   
+│   └── ItemPedido.java               
 ├── servico/
-│ ├── FreteCalculadora.java
-│ ├── FreteCalculadoraPeso.java
-│ ├── FreteCalculadoraDistancia.java
-│ ├── Notificador.java
-│ ├── NotificadorEmail.java
-│ ├── NotificadorSMS.java
-│ └── NotificadorWhatsApp.java
+│   ├── FreteCalculadora.java        
+│   ├── FreteCalculadoraPeso.java    
+│   ├── FreteCalculadoraDistancia.java 
+│   ├── Notificador.java             
+│   ├── NotificadorEmail.java        
+│   ├── NotificadorSMS.java          
+│   └── NotificadorWhatsApp.java     
 ├── relatorio/
-│ ├── Relatorio.java
-│ ├── RelatorioTexto.java
-│ └── RelatorioJSON.java
+│   ├── Relatorio.java               
+│   ├── RelatorioTexto.java          
+│   └── RelatorioJSON.java           
 └── util/
-└── Entrada.java
+    └── Entrada.java                
+
 
 3. Compilar e Executar
 
@@ -90,8 +91,8 @@ Tecnologias Utilizadas
 
 Desafios encontrados
 
-- Controle de fluxo com menus e repetição de escolhas, onde foi necessário implementar menus que:
--- Repetem a pergunta quando o usuário digita algo inválido.
-  -- Permitem cancelar o processo de criação de pedido a qualquer momento.
-  -- Fazem validações contínuas sem travar o programa.
-- Porque exige lógica de repetição (while), uso de flags e verificação de condições para cada etapa do processo (cliente, produto, frete, notificação).
+Controle de fluxo com menus e repetição de escolhas, onde foi necessário implementar menus que:
+- Repetem a pergunta quando o usuário digita algo inválido.
+- Permitem cancelar o processo de criação de pedido a qualquer momento.
+- Fazem validações contínuas sem travar o programa.
+Porque exige lógica de repetição (while), uso de flags e verificação de condições para cada etapa do processo (cliente, produto, frete, notificação).
